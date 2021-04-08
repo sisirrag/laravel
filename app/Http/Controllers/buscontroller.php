@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Contnoers;
+namespace App\Http\controllers;
 
 use Illuminate\Http\Request;
+use App\Models\busmodel;
 
-class buscontnoer extends Contnoer
+class buscontroller extends controller
 {
     /**
      * Display a listing of the resource.
